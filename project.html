@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Projetos | JORGE FORTES</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="index.html" style="--i: 1">Início</a>
+        <a href="#" style="--i: 2">Sobre</a>
+        <a href="project.html" style="--i: 3" class="active">Projetos</a>
+      </nav>
+    </header>
+
+    <section class="projects-section">
+      <div class="projects-container">
+        <h2 class="heading">Os Meus <span>Projetos</span></h2>
+        <p class="projects-intro">
+          Aqui encontras uma seleção de projetos académicos e pessoais que
+          desenvolvi ao longo do curso de Engenharia Informática e de Computadores.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Projeto 1 -->
+          <div class="project-card">
+            <img src="./images/project1.png" alt="Projeto 1" />
+            <div class="project-info">
+              <h3>Sistema de Reserva de Eventos</h3>
+              <p>
+                Aplicação web full-stack desenvolvida com Node.js, Express,
+                PostgreSQL e React. Inclui autenticação com JWT, diferentes
+                perfis de utilizador e design totalmente responsivo.
+              </p>
+              <a
+                href="https://github.com/jorgefortes11/event-reservation"
+                target="_blank"
+                class="btn"
+                >Ver no GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="project-card">
+            <img src="./images/project2.png" alt="Projeto 2" />
+            <div class="project-info">
+              <h3>Sistema Distribuído de Mensagens</h3>
+              <p>
+                Sistema distribuído desenvolvido em Python que implementa o
+                modelo publish–subscribe para troca de mensagens e ficheiros
+                entre clientes através de uma interface web.
+              </p>
+              <a
+                href="https://github.com/jorgefortes11/distributed-messaging"
+                target="_blank"
+                class="btn"
+                >Ver no GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="project-card">
+            <img src="./images/project3.png" alt="Projeto 3" />
+            <div class="project-info">
+              <h3>Dashboard de Análise de Marketing</h3>
+              <p>
+                Dashboard interativo criado para a FortesMark Digital Solutions,
+                que apresenta métricas e desempenho de campanhas em tempo real
+                utilizando React e Chart.js.
+              </p>
+              <a
+                href="https://github.com/jorgefortes11/fortesmark-dashboard"
+                target="_blank"
+                class="btn"
+                >Ver no GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Jorge Fortes — Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

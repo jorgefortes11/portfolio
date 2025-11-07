@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio | JORGE FORTES</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="" style="--i: 1" class="active">Home</a>
+        <a href="" style="--i: 2">About</a>
+        <a href="project.html" style="--i: 5">Projects</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3><span>Hi</span>, I´m</h3>
+        <h1>Jorge Fortes</h1>
+        <h3>And I´m <span id="home-typing"></span></h3>
+        <p>
+          4th Year Computer Engineering and Computer Systems Student
+        </p>
+        <div class="social-content">
+          <a href="https://www.instagram.com/jorge_fortes" style="--s: 1" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/jorgefortes11/" style="--s: 2" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://x.com/jorgefortes11" style="--s: 3" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+
+        </div>
+        <a href="https://github.com/jorgefortes11" target="_blank" class="btn"
+          >GitHub</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="./images/image.jpg" alt=""/>
+      </div>
+    </section>
+
+    <!-- Script Section -->
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+    <script>
+      new TypeIt("#home-typing", {
+        lifeLike: true,
+        loop: true,
+        speed: 100,
+        deleteSpeed: 50,
+        cursorChar: "_",
+      })
+        .type("Stylish")
+        .pause(1400)
+        .delete(10)
+        .pause(500)
+        .type("Educated")
+        .pause(1400)
+        .delete(12)
+        .pause(500)
+        .type("Handsome")
+        .pause(1400)
+        .delete(12)
+        .pause(500)
+        .type("Kind")
+        .pause(1400)
+        .delete(12)
+        .go();
+    </script>
+  </body>
+</html>
